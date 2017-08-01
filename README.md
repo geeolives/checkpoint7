@@ -1,0 +1,13 @@
+# Links
+* [GitHub Repo] (https://github.com/geeolives/checkpoint7)
+* [My Web Host] (http://geeolives.com/dwainreynolds)
+
+
+# About This Site
+* This site was created by me, Gisel Olivares, for educational purposes only. Dwain Reynolds is an aspiring politician, running for Michigan Governor 2018. He is seeking nominations from the Green and Socialist parties. His original site was in need of a major makeover. When designing this project I took into consideration the user personas of those who would potentially visit his site and support him. I did this by taking into consideration his current target audience. The colors utilized are supposed to portray a non-traditional candidate, as Reynolds is anything but traditional. He has progressive views and those who support him would care about the environment, a better future in general, and would most likely not have traditional political views. I tried implementing all of this not just with the colors, but the overall minimalistic look throughout.  
+* This site is wired to WordPress since the platform is perfect for any entity looking to have functionality and a site online without too much hassle of creating a site completely from scratch. Basically, it is easier to manage this way. 
+* The homepage consists of a video serving as intro video example about Dwain and his campaign. There is also a donation box/form on this page and the donate button is ever active in the navigation bar so that anyone visiting can easily spot it and donate. The social media icons always on the right-hand side of the page have a subtle animation and link to his respective social media sites. 
+* The family image on the about page is an example of a personal picture Dwain can include on his page, so we see more of who he is and where he comes from. A picture, as they say, speaks a thousand words. 
+* The agenda page is all about the issues he cares about and the donation box is here again. I previously had an animation but per my Professor, Amy's, professional opinion, she suggested I remove this, so I did.
+* The blog page is supposed to showcase 3 posts a time with an image. On the right, there should be a sidebar with widgets to search the site, search the archives, join the newsletter, see recent posts, and the most popular posts.
+* Finally, the contact page is pretty straight forward. I used a Contact Form 7 here and styled it to match the rest of the site. I also fixed the line height in the input fields as Amy suggested. There's also a Press Kit button here, which was also present on the about page. It is meant to be an example of a button that would lead to a PDF version of the press kit. Finally, the donation form/box can be seen at the bottom of the page again. 
