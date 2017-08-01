@@ -1,0 +1,102 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+form > div {
+    clear: both;
+    overflow: hidden;
+    padding: 1px;
+    margin: 0 0 10px 0;
+}
+
+form > div > fieldset > div > div {
+    margin: 0 0 5px 0;
+}
+
+form > div > label,
+legend {
+    width: 25%;
+    float: left;
+    padding-right: 10px;
+}
+
+form > div > div,
+form > div > fieldset > div {
+    width: 75%;
+    float: right;
+}
+
+form > div > fieldset label {
+    font-size: 90%;
+}
+
+fieldset {
+    border: 0;
+    padding: 0;
+}
+
+input[type=text],
+input[type=email],
+input[type=zipcode],
+textarea {
+    width: 100%;
+    border-top: 1px solid $secondary-color;
+    border-left: 1px solid $secondary-color;
+    border-right: 1px solid $secondary-color;
+    border-bottom: 1px solid $secondary-color;
+}
+
+input[type=text],
+input[type=email],
+input[type=zipcode],
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=zipcode]:focus,
+textarea:focus {
+    outline: 0;
+    border-color: $secondary-color;
+}
+
+@media (max-width: 600px) {
+    form > div {
+        margin: 0 0 15px 0;
+    }
+    form > div > label,
+    legend {
+        width: 100%;
+        float: none;
+        margin: 0 0 5px 0;
+    }
+    form > div > div,
+    form > div > fieldset > div {
+        width: 100%;
+        float: none;
+    }
+    input[type=text],
+    input[type=email],
+    textarea,
+    select {
+        width: 100%;
+    }
+}
+@media (min-width: 1200px) {
+    form > div > label,
+    legend {
+        text-align: right;
+    }
+}
+
+form.solid {
+    border-style: solid;
+    border-color: $tertiary-color;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+label,
+input,
+button {
+    font: 1em $nunito;
+}

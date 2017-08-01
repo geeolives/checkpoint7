@@ -1,0 +1,120 @@
+@import "fonts";
+@import "navigation";
+@import "donate";
+@import "socialmedia";
+@import "footer";
+@import "gridagenda";
+@import "animatediv";
+
+header {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+h1 {
+    font: 3em $playfair-display;
+    color: $primary-color;
+    margin-left: 0;
+}
+
+h1.donate {
+    color: white;
+}
+
+div.learn {
+    background-color: $secondary-color;
+    padding: 10px;
+    color: white;
+    font-family: $libre-franklin;
+    font-size: 2.25em;
+    width: 50%;
+    margin-bottom: 3px;
+    margin-top: 30px;
+}
+
+div.vision {
+    background-color: $primary-color;
+    padding: 10px;
+    color: white;
+    font-family: $libre-franklin;
+    font-size: 2.25em;
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.issues {
+    display: inline;
+    margin-right: 50px;
+    float: left;
+}
+
+.agenda {
+    font: 1em $nunito;
+    margin: 20px;
+    padding-top: 60px;
+    margin-left: 40px;
+    line-height: 36px;
+}
+
+.donate-wrapper {
+    margin-top: 10px;
+    width: 130%;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.donate-box {
+    margin: 5px;
+}
+
+button {
+    color: white;
+    font: 1em $nunito;
+    background-color: $secondary-color;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    -webkit-transition: 320ms;
+    transition: 320ms;
+    cursor: pointer;
+    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+}
+
+button:hover,
+button:focus,
+button:active {
+    background-color: #4fcc6b;
+    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+    color: #ffffff;
+    outline: none;
+    border: 0;
+}
+
+.donate-wrapper {
+    position: relative;
+    max-width: 420px;
+    float: left;
+}
+
+.bernie {
+    opacity: 1;
+}
+
+.bernie:hover {
+    opacity: 0.5;
+    transition: opacity 0.2s ease-out;
+    -moz-transition: opacity 0.2s ease-out;
+    -webkit-transition: opacity 0.2s ease-out;
+    -o-transition: opacity 0.2s ease-out;
+}
+
+main p {
+    line-height: 36px;
+}
