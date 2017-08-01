@@ -1,6 +1,6 @@
 # Links
 * [GitHub Repo] (https://github.com/geeolives/checkpoint7)
-* [My Web Host] (http://geeolives.com/dwainreynolds)
+* [My Web Host] (http://geeolives.com)
 
 
 # About This Site
